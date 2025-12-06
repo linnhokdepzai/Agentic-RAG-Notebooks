@@ -28,11 +28,6 @@ A foundational RAG system combining document retrieval with an intelligent agent
 - Vector Store: FAISS
 - Framework: LangChain + LangGraph
 
-**Use Cases:**
-- Document question answering
-- Factual retrieval from PDF documents
-- Building conversational search interfaces
-
 ---
 
 ### 2. Agentic RAG - Hybrid Search
@@ -54,12 +49,6 @@ An advanced RAG system that combines dense (semantic) and sparse (keyword) searc
 - Sparse Search: BM25Encoder (Pinecone)
 - Vector Store: Pinecone (Cloud-based)
 - Framework: LangChain + LangGraph
-
-**Use Cases:**
-- High-precision document retrieval
-- Combining semantic and keyword-based search
-- Large-scale enterprise RAG systems
-- Multi-modal document understanding
 
 ---
 
@@ -83,23 +72,6 @@ A cloud-native RAG implementation using MongoDB Atlas for vector storage and ret
 - Vector Store: MongoDB Atlas
 - Database: MongoDB Atlas Cloud
 - Framework: LangChain (create_agent utility)
-
-**Use Cases:**
-- Production RAG systems with managed databases
-- Multi-tenant applications
-- Persistent document storage with versioning
-- Conversational AI with state management
-
----
-
-## 🚀 Features
-
-✅ **Multiple Vector Store Options**: FAISS (local), Pinecone (cloud), MongoDB Atlas (managed)  
-✅ **Hybrid Search Capability**: Combine semantic and keyword-based retrieval  
-✅ **Intelligent Agents**: LangGraph-based agents with tool usage and state management  
-✅ **Production-Ready**: Includes error handling, configuration management, and checkpointing  
-✅ **Easy Integration**: Uses LangChain abstractions for quick customization  
-✅ **Document Processing**: Handles PDF loading and intelligent chunking  
 
 ---
 
