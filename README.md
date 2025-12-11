@@ -75,14 +75,38 @@ A cloud-native RAG implementation using MongoDB Atlas for vector storage and ret
 
 ---
 
+### 4. Agentic Knowledge Graph RAG
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saad-Shakeel/Agentic-RAG-Notebooks/blob/main/Agentic_Knowledge_Graph_RAG.ipynb)
+
+**Description:**
+An advanced RAG system that combines knowledge graphs with vector search for enhanced reasoning and relationship discovery. This notebook demonstrates:
+- **Neo4j Graph Database**: Connect to Neo4j for storing and querying structured knowledge relationships
+- **Graph Data Loading**: Import CSV data to create Article, Researcher, and Topic nodes with relationships
+- **Hybrid Vector Index**: Combine semantic embeddings with graph structure for comprehensive search
+- **Dual Tool Architecture**: Separate tools for semantic retrieval and graph-based queries
+- **Cypher Query Generation**: Automatic translation of natural language to Cypher queries
+- **ReAct Agent Pattern**: Intelligent tool selection between vector search and graph queries
+- **Relationship Analysis**: Discover connections between entities, authors, and research topics
+
+**Key Components:**
+- LLM: ChatGroq (GPT OSS 20B)
+- Embeddings: GoogleGenerativeAIEmbeddings (Gemini, 3072 dimensions)
+- Graph Database: Neo4j
+- Vector Store: Neo4j Vector Index (hybrid search)
+- Framework: LangChain + Neo4j Integration
+
+---
+
 ## 📋 Prerequisites
 
 - Python 3.9+
 - API Keys:
   - `GROQ_API_KEY` - For ChatGroq LLM
-  - `GOOGLE_API_KEY` - For Google Gemini embeddings (Hybrid Search notebook)
+  - `GOOGLE_API_KEY` - For Google Gemini embeddings (Hybrid Search & Knowledge Graph notebooks)
   - `PINECONE_API_KEY` - For Pinecone vector database (Hybrid Search notebook)
   - `MONGODB_ATLAS_CLUSTER_URI` - For MongoDB Atlas connection (MongoDB notebook)
+  - `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD` - For Neo4j graph database (Knowledge Graph notebook)
 - Installed Dependencies (see `pyproject.toml`)
 
 ---
@@ -121,6 +145,11 @@ uv sync
    
    # MongoDB Atlas Connection - Get from https://cloud.mongodb.com
    MONGODB_ATLAS_CLUSTER_URI=mongodb+srv://username:password@cluster.mongodb.net/database
+   
+   # Neo4j Graph Database - Get from https://neo4j.com/cloud/aura/
+   NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
+   NEO4J_USERNAME=neo4j
+   NEO4J_PASSWORD=your_password
    ```
 
 3. **Place your PDF documents in the `data/` directory**
@@ -147,6 +176,7 @@ Click the "Open in Colab" badge at the top of each notebook to run directly in y
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 - [Pinecone Vector Database](https://www.pinecone.io/)
 - [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas)
+- [Neo4j Graph Database](https://neo4j.com/)
 - [Groq API](https://www.groq.com/)
 
 ---
